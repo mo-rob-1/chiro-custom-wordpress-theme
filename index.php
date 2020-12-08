@@ -6,7 +6,7 @@ get_header(); ?>
     <h1 class="landing__title">Welcome to our blog!</h1>
 </section>
 
-<section class="blog blog-white">
+<section class="blog>
 <?php
     while(have_posts()) {
         the_post(); ?>
