@@ -1,20 +1,9 @@
-/* Typography
---------------------------------------------- */
-@import "typography/typography";
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
 
-/* Elements
---------------------------------------------- */
-@import "elements/body";
-@import "elements/hr";
-@import "elements/lists";
-@import "elements/media";
-@import "elements/tables";
-
-/* Links
---------------------------------------------- */
-@import "elements/links";
-
-/* Forms
---------------------------------------------- */
-@import "elements/buttons";
-@import "elements/fields";
+html {
+	box-sizing: border-box;
+}
