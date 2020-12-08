@@ -10,4 +10,10 @@ function chiro_features() {
 
 add_action('after_setup_theme', 'chiro_features');
 
+function chiro_child_theme_files() {
+    wp_enqueue_style('google-main-font', '//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika&display=swap');
+}
+
+add_action('wp_enqueue_scripts', 'chiro_child_theme_files');
 
