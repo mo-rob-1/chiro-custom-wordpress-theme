@@ -9,3 +9,24 @@
 @mixin column-width($numberColumns: 3) {
 	width: map-get($columns, $numberColumns) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
 }
+
+//Breakpoints Start
+@mixin responsive($breakpoint) {
+    @if $breakpoint == tablet {
+        @media only screen and (min-width: 600px)
+        {@content};
+    }
+    @if $breakpoint == laptop {
+        @media only screen and (min-width: 1024px)
+        {@content};
+    }
+    @if $breakpoint == laptop-large {
+        @media only screen and (min-width: 1440px)
+        {@content};
+    }
+    @if $breakpoint == desktop {
+        @media only screen and (min-width: 1920px)
+        {@content};
+    }
+}
+//Breakpoints End
