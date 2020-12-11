@@ -6,6 +6,8 @@
 </head>
 <body>
 
+<main>
+
 <header class="header">
 
     <div class="header__logo-and-toggle-container">
