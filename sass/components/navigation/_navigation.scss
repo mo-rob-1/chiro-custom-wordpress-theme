@@ -107,3 +107,26 @@
 		flex: 1 0 50%;
 	}
 }
+
+/* Custom Nav Styling */
+header {
+	.header__nav {
+		background-color: $navy__blue !important;
+	}
+	.header__nav-ul {
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		padding-top: .7rem;
+
+	}
+	.header__nav-li {
+		text-align: left;
+		padding-left: .9rem;
+	}
+	.header__book-appointment {
+		background-color: $light__green;
+		padding-top: .3rem;
+		padding-bottom: .3rem;
+	}
+}

@@ -393,6 +393,40 @@ textarea {
 	line-height: 1.5;
 }
 
+.header__logo {
+	font-family: "Signika", sans-serif;
+	font-size: 2rem;
+}
+
+.header__nav-ul {
+	font-weight: bold;
+	line-height: 3;
+	font-family: "Open Sans", sans-serif;
+}
+
+.header__nav-li {
+	color: #fff;
+	list-style-type: none;
+}
+
+.header__nav-li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header__nav-li a:visited {
+	color: #fff;
+}
+
+.header__nav-li a:hover {
+	color: #fff;
+}
+
+.logo__link {
+	text-decoration: none;
+	color: #263c53 !important;
+}
+
 h1,
 h2,
 h3,
@@ -625,8 +659,26 @@ header {
 	margin: 0;
 }
 
-.logo {
-	margin: 0;
+header .header__logo-and-toggle-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	padding: 2rem .9rem 2rem .9rem;
+}
+
+header .header__nav-ul {
+	display: none;
+}
+
+header .menu-icon {
+	padding: 0;
+	outline: none;
+}
+
+header .hamburger-box {
+	float: right;
 }
 
 /*--------------------------------------------------------------
@@ -722,6 +774,34 @@ header {
 .post-navigation .nav-next {
 	text-align: end;
 	flex: 1 0 50%;
+}
+
+/* Custom Nav Styling */
+header .header__nav {
+	background-color: #263c53 !important;
+}
+
+header .header__nav-ul {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	padding-top: .7rem;
+}
+
+header .header__nav-li {
+	text-align: left;
+	padding-left: .9rem;
+}
+
+header .header__book-appointment {
+	background-color: #6cbccb;
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+	height: 2px;
+	background-color: #263c53 !important;
 }
 
 /* Posts and pages

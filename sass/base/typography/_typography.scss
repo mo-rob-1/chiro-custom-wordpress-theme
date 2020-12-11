@@ -10,5 +10,36 @@ textarea {
 	line-height: $font__line-height-body;
 }
 
+.header {
+	&__logo {
+		font-family: $secondary__font;
+		font-size: 2rem;
+	}
+	&__nav-ul {
+		font-weight: bold;
+		line-height: 3;
+		font-family: $primary__font;
+	}
+	&__nav-li {
+		color: #fff;
+		list-style-type: none;
+	}
+	&__nav-li a {
+		text-decoration: none;
+		color: #fff;
+	}
+	&__nav-li a:visited {
+		color: #fff;
+	}
+	&__nav-li a:hover {
+		color: #fff;
+	}
+}
+
+.logo__link {
+	text-decoration: none;
+	color: $navy__blue !important;
+}
+
 @import "headings";
 @import "copy";
