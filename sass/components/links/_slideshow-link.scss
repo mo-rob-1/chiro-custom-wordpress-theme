@@ -1,0 +1,14 @@
+.slideshow {
+    &__link {
+        background-color: #6cbdcbe1;
+        text-decoration: none;
+        color: #fff;
+        padding: .8rem;
+        font-family: $primary__font;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    &__link:hover {
+        color: #fff;
+    }
+}

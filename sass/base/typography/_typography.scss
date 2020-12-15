@@ -10,6 +10,7 @@ textarea {
 	line-height: $font__line-height-body;
 }
 
+//Header Typography
 .header {
 	&__logo {
 		font-family: $secondary__font;
@@ -39,6 +40,19 @@ textarea {
 .logo__link {
 	text-decoration: none;
 	color: $navy__blue !important;
+}
+
+//Slideshow Typography 
+.slideshow {
+	.slideshow__title {
+		color: #fff;
+		font-family: $secondary__font;
+	}
+	.slideshow__desc {
+		color: #fff;
+		font-weight: bold;
+		margin-bottom: 2rem;
+	}
 }
 
 @import "headings";

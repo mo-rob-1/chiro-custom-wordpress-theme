@@ -427,6 +427,17 @@ textarea {
 	color: #263c53 !important;
 }
 
+.slideshow .slideshow__title {
+	color: #fff;
+	font-family: "Signika", sans-serif;
+}
+
+.slideshow .slideshow__desc {
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
 h1,
 h2,
 h3,
@@ -681,6 +692,45 @@ header .hamburger-box {
 	float: right;
 }
 
+.slideshow__item-1, .slideshow__item-2, .slideshow__item-3 {
+	height: 500px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.slideshow__item-1 {
+	background-image: url("images/banner1.jpg");
+}
+
+.slideshow__item-2 {
+	background-image: url("images/banner2.jpg");
+}
+
+.slideshow__item-3 {
+	background-image: url("images/banner3.jpg");
+}
+
+.slideshow__title {
+	margin: 0;
+}
+
+.slideshow__content-wrapper {
+	margin: 1.2rem;
+}
+
+.carousel-cell {
+	width: 100%;
+}
+
+.flickity-page-dots {
+	bottom: 0px;
+	display: none;
+}
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
@@ -828,6 +878,22 @@ header .header__book-appointment {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+/* Links
+--------------------------------------------- */
+.slideshow__link {
+	background-color: #6cbdcbe1;
+	text-decoration: none;
+	color: #fff;
+	padding: .8rem;
+	font-family: "Open Sans", sans-serif;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.slideshow__link:hover {
+	color: #fff;
 }
 
 /* Comments

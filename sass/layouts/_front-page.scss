@@ -1,0 +1,37 @@
+.slideshow {
+    &__item-1,
+    &__item-2,
+    &__item-3 {
+        height: 500px;
+        background-position: center center; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    &__item-1 {
+        background-image: url("images/banner1.jpg");
+    }
+    &__item-2 {
+        background-image: url("images/banner2.jpg");
+    }
+    &__item-3 {
+        background-image: url("images/banner3.jpg");
+    }
+    &__title {
+        margin: 0;
+    }
+    &__content-wrapper {
+        margin: 1.2rem;
+    }
+}
+
+//Flickity Styling
+.carousel-cell {
+    width: 100%;
+}
+.flickity-page-dots {
+    bottom: 0px;
+    display: none;
+}
