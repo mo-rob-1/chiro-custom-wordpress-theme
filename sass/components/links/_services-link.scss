@@ -1,0 +1,33 @@
+.services {
+    &__intro-link {
+        color: $purple !important;
+        text-decoration: none;
+        font-family: $primary__font;
+        font-weight: bold;
+    }
+    &__intro-link:hover {
+        color: $navy__blue !important;
+    }
+    &__intro-link:visited{
+        color: $purple !important;
+    }
+    &__link-read-more {
+        text-decoration: none;
+        font-family: $primary__font;
+        font-weight: bold;
+        color: $purple !important;
+    }
+    &__link-read-more:hover {
+        color: $navy__blue !important;
+    } 
+    &__heading-link {
+		font-family: $secondary__font;
+		text-decoration: none;
+		color: $navy__blue !important;
+		font-weight: bold;
+		font-size: 1.2rem;
+    }
+    &__heading-link:hover {
+        color: $purple !important;
+    }
+}

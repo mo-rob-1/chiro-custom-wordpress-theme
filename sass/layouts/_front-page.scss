@@ -1,3 +1,4 @@
+//Slideshow Styling
 .slideshow {
     &__item-1,
     &__item-2,
@@ -27,11 +28,40 @@
     }
 }
 
-//Flickity Styling
+//Flickity Styling (Slideshow)
 .carousel-cell {
     width: 100%;
 }
 .flickity-page-dots {
     bottom: 0px;
     display: none;
+}
+
+//Services
+.services {
+    &__container {
+        padding: 6rem 1.2rem 1.6rem;
+    }
+    &__intro-container {
+        padding: 36px;
+        border: 4px solid #eee;
+        margin-bottom: 1.6rem;
+    }
+    &__intro-title {
+        margin: 0;
+    }
+    &__image-wrapper img {
+        border-radius: 3px;
+    }
+    &__text-wrapper {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-bottom: 2.2rem;
+    }
+    &__heading {
+        margin-bottom: .6rem;
+    }
+    &__desc {
+        margin: 0;
+    }
 }

@@ -55,5 +55,22 @@ textarea {
 	}
 }
 
+//Services Typography
+.services {
+	&__intro-title {
+		font-family: $secondary__font;
+		color: $navy__blue;
+		font-size: 28px;
+		font-weight: bold;
+	}
+	&__intro-desc,
+	&__desc {
+		font-family: $primary__font;
+		line-height: 1.8;
+		color: $secondary__text-color;
+		font-size: 14px;
+	}
+}
+
 @import "headings";
 @import "copy";

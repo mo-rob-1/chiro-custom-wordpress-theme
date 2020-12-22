@@ -438,6 +438,20 @@ textarea {
 	margin-bottom: 2rem;
 }
 
+.services__intro-title {
+	font-family: "Signika", sans-serif;
+	color: #263c53;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.services__intro-desc, .services__desc {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.8;
+	color: #88919e;
+	font-size: 14px;
+}
+
 h1,
 h2,
 h3,
@@ -731,6 +745,38 @@ header .hamburger-box {
 	display: none;
 }
 
+.services__container {
+	padding: 6rem 1.2rem 1.6rem;
+}
+
+.services__intro-container {
+	padding: 36px;
+	border: 4px solid #eee;
+	margin-bottom: 1.6rem;
+}
+
+.services__intro-title {
+	margin: 0;
+}
+
+.services__image-wrapper img {
+	border-radius: 3px;
+}
+
+.services__text-wrapper {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2.2rem;
+}
+
+.services__heading {
+	margin-bottom: .6rem;
+}
+
+.services__desc {
+	margin: 0;
+}
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
@@ -885,7 +931,7 @@ header .header__book-appointment {
 .slideshow__link {
 	background-color: #6cbdcbe1;
 	text-decoration: none;
-	color: #fff;
+	color: #fff !important;
 	padding: .8rem;
 	font-family: "Open Sans", sans-serif;
 	border-radius: 5px;
@@ -894,6 +940,44 @@ header .header__book-appointment {
 
 .slideshow__link:hover {
 	color: #fff;
+}
+
+.services__intro-link {
+	color: #9068be !important;
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
+
+.services__intro-link:hover {
+	color: #263c53 !important;
+}
+
+.services__intro-link:visited {
+	color: #9068be !important;
+}
+
+.services__link-read-more {
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	color: #9068be !important;
+}
+
+.services__link-read-more:hover {
+	color: #263c53 !important;
+}
+
+.services__heading-link {
+	font-family: "Signika", sans-serif;
+	text-decoration: none;
+	color: #263c53 !important;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.services__heading-link:hover {
+	color: #9068be !important;
 }
 
 /* Comments
